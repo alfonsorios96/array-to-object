@@ -1,4 +1,4 @@
-function arrayToObject() {
+function arrayToObject(dataArray) {
     let newObject = {};
     for(let value of dataArray){
         let separed = Object.entries(value)[0];
